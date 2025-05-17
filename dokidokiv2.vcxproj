@@ -41,7 +41,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="classes.h" />
-    <ClInclude Include="GameMenu.h" />
     <ClInclude Include="menu.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -130,13 +129,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\lehab\Desktop\dokidokiv2\sfml\include;C:\Users\User\Desktop\dokidokiv2\sfml\include;C:\Users\User\Desktop\dokidokiv2\sfml\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\lehab\Desktop\kursachv1\sfml\include;C:\Users\lehab\Desktop\dokidokiv2\sfml\include;C:\Users\User\Desktop\dokidokiv2\sfml\include;C:\Users\User\Desktop\dokidokiv2\sfml\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\lehab\Desktop\dokidokiv2\sfml\lib;C:\Users\User\Desktop\dokidokiv2\sfml\lib;C:\Users\lehab\Desktop\Новая папка %284%29\dokidokiv2\sfml\lib;C:\Users\lehab\Desktop\dokidokiv2\sfml\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\lehab\Desktop\kursachv1\sfml\lib;C:\Users\lehab\Desktop\dokidokiv2\sfml\lib;C:\Users\User\Desktop\dokidokiv2\sfml\lib;C:\Users\lehab\Desktop\Новая папка %284%29\dokidokiv2\sfml\lib;C:\Users\lehab\Desktop\dokidokiv2\sfml\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
     </Link>
@@ -149,14 +148,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\lehab\Desktop\dokidokiv2\sfml\include;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\lehab\Desktop\kursachv1\sfml\include;C:\Users\lehab\Desktop\dokidokiv2\sfml\include;</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\lehab\Desktop\dokidokiv2\sfml\lib;</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\lehab\Desktop\kursachv1\sfml\lib;C:\Users\lehab\Desktop\dokidokiv2\sfml\lib;</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

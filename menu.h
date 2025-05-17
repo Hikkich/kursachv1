@@ -1,6 +1,5 @@
 using namespace sf;
 #include <Windows.h>
-#include"effects.h"
 #include "classes.h"
 
 
